@@ -1,0 +1,33 @@
+{
+  "name": "stencil-atlas-progress",
+  "private": false,
+  "version": "0.0.1",
+  "description": "Ionic v1 Atlas-Progress component migrated to web component using StencilJS. Now working with every web framework.",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
+    "serve": "stencil-dev-server",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@stencil/core": "next",
+    "@stencil/router": "0.0.4"
+  },
+  "devDependencies": {
+    "@stencil/dev-server": "latest",
+    "@stencil/utils": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inoverse/stencil-atlas-progress.git"
+  },
+  "author": "Aaron Czichon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Inoverse/stencil-atlas-progress/issues"
+  },
+  "homepage": "https://github.com/Inoverse/stencil-atlas-progress"
+}
